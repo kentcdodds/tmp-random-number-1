@@ -1,0 +1,11 @@
+{
+  "name": "@kentcdodds/tmp-random-number-1",
+  "version": "1.0.1",
+  "description": "Temp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT"
+}
