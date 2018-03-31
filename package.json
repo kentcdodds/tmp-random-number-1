@@ -1,6 +1,6 @@
 {
   "name": "@kentcdodds/tmp-random-number-1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Temp project",
   "main": "index.js",
   "scripts": {
