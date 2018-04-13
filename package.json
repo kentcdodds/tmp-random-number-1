@@ -2,9 +2,12 @@
   "name": "@kentcdodds/tmp-random-number-1",
   "version": "1.0.2",
   "description": "Temp project",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "validate": "npm test && npm run lint && npm run build",
+    "build": "babel --copy-files --out-dir dist --ignore __tests__,__mocks__ src"
   },
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
@@ -15,5 +18,35 @@
   "bugs": {
     "url": "https://github.com/kentcdodds/tmp-random-number-1/issues"
   },
-  "homepage": "https://github.com/kentcdodds/tmp-random-number-1#readme"
+  "homepage": "https://github.com/kentcdodds/tmp-random-number-1#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "jest": "^22.4.3"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "jest": true
+    }
+  },
+  "eslintIgnore": [
+    "dist",
+    "node_modules",
+    "coverage"
+  ],
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
 }
