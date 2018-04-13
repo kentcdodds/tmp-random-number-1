@@ -72,3 +72,4 @@ MIT
 [github-star]: https://github.com/kentcdodds/tmp-random-number-1/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20@kentcdodds/tmp-random-number-1%20by%20%40kentcdodds%20https%3A%2F%2Fgithub.com%2Fkentcdodds%2F@kentcdodds/tmp-random-number-1%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/tmp-random-number-1.svg?style=social
+# tmp-random-number-2

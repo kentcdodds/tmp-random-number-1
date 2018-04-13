@@ -48,5 +48,8 @@
     "presets": [
       "env"
     ]
+  },
+  "dependencies": {
+    "@kentcdodds/tmp-random-number-2": "^1.0.0"
   }
 }
